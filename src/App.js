@@ -37,7 +37,7 @@ const tempArray = [{
     }
 
     return (
-      <div className="App">
+      <div className="App" data-test="appComponent">
         <Header />
         <section className="main">
           <Headline  header="Posts" desc="Click Btn to render Posts" tempArray={tempArray}/>
